@@ -31,7 +31,9 @@ pip install -r requirements.txt
 Download the nltk resources. Inside a python shell:
 ```python
 import nltk
-nltk.download()
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 ```
 
 Start quizzy:
