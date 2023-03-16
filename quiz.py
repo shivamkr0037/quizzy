@@ -143,7 +143,7 @@ def chooseCategory():
 def loadCategoryData(category):
         # Open quiz bank for particular category
         dir_path = os.path.join('OpenTriviaQA_JSON')
-        with open(os.path.join(dir_path, category + '.json')) as data_file:
+        with open(os.path.join(dir_path, category + '.json'), encoding='utf8') as data_file:
                 data = json.load(data_file)
         return data
 
