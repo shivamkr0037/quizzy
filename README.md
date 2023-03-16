@@ -5,7 +5,7 @@ A simple quizbot written in python that extracts topic of interest from the user
 - Engages the user in an interactive quiz
 - Scores +1 for correct answer and -0.25 for wrong answer
 - Ability to change the topic of interest for the quiz
-- Detects invalid and ambiguous responses
+- Detects ambiguous responses
 
 ## Workflow
 <div align="center">
@@ -18,6 +18,32 @@ A simple quizbot written in python that extracts topic of interest from the user
 4. User takes the quiz and is shown questions fetched from the question bank.
 5. User answers the questions in natural language, from which the answer is extracted and is checked against the correct option in the question bank.
 6. Once the quiz is complete and the user is satisfied, the user will be redirected to the initial phase i.e, phase 1.
+
+
+## Setup
+This project is written in python 3.7
+
+Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+Download the nltk resources. Inside a python shell:
+```python
+import nltk
+nltk.download()
+```
+
+Start quizzy:
+```bash
+python quiz.py
+```
+
+### Commands
+- `@list_quizzes` - Displays the quiz topics available. Only applicable when selecting a quiz topic
+- `@stop_quiz` - Stops the quiz and displays the final score
+- `@change_quiz` - Change quiz topic. Applicable when a quiz topic is already active
+
 
 ## Demo
 ![](/screenshots/2.png?raw=true)
