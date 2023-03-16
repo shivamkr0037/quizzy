@@ -12,12 +12,12 @@ A simple quizbot written in python that extracts topic of interest from the user
   <img src="screenshots/workflow.jpg" height=350 width=400>
 </div>
 
-1. The user starts interacting with Quizzy
-2. Quizzy tries to find the area of interest, on which user wants to take the quiz 
-3. Once the quiz topic is decided, user is quizzed on it, this is phase 2
-4. User takes the quiz and is shown questions fetched from the question bank
-5. User answers the questions in natural language, from which the answer is extracted and is checked against the correct option in the question bank
-6. Once the quiz is complete and the user is satisfied, the user will be redirected to the initial phase i.e, phase 1
+1. The user starts interacting with Quizzy.
+2. Quizzy tries to find the area of interest, on which user wants to take the quiz.
+3. Once the quiz topic is decided, user is quizzed on it, this is phase 2.
+4. User takes the quiz and is shown questions fetched from the question bank.
+5. User answers the questions in natural language, from which the answer is extracted and is checked against the correct option in the question bank.
+6. Once the quiz is complete and the user is satisfied, the user will be redirected to the initial phase i.e, phase 1.
 
 ## Demo
 ![](/screenshots/2.png?raw=true)
